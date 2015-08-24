@@ -86,8 +86,8 @@
 
 % OPTION bibstyle
 % --> values = alphabetic|numeric|authoryear
-\define@choicekey*[ct]{cthesis}{bibstyle}[\val\bibstylenr]{alphabetic,numeric,authoryear}[alphabetic]{\def\cthesis@bibstyle{#1}}
-\setkeys[ct]{cthesis}{bibstyle=alphabetic}
+\define@choicekey*[ct]{cthesis}{bibstyle}[\val\bibstylenr]{alphabetic,numeric,authoryear}[authoryear]{\def\cthesis@bibstyle{#1}}
+\setkeys[ct]{cthesis}{bibstyle=authoryear}
 
 
 \DeclareOptionX*{
@@ -281,12 +281,12 @@
 	backref=true,					% 	- activate backrefs
 	isbn=false,						% 	- don't show isbn tags
 	url=false,						% 	- don't show url tags
-	doi=false,						% 	- don't show doi tags
+	doi=true,						% 	- don't show doi tags
 	urldate=long,					% 	- display type for dates
 	maxnames=3,%
 	minnames=1,%
 	maxbibnames=5,%
-	minbibnames=3,%
+	minbibnames=1,%
 	maxcitenames=2,%
 	mincitenames=1%
 ]{biblatex}
