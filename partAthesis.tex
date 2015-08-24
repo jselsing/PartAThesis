@@ -53,7 +53,7 @@
 % **************************************************
 % Information and Commands for Reuse
 % **************************************************
-\newcommand{\thesisTitle}{High energy phenomena: A window to the dark universe.}
+\newcommand{\thesisTitle}{High energy space phenomena: A window to the dark universe.}
 \newcommand{\thesisName}{Jonatan Selsing}
 \newcommand{\thesisSubject}{Part A Thesis}
 \newcommand{\thesisDate}{August 22, 2015}
@@ -109,8 +109,9 @@
 	pdfauthor={\thesisName},	% 	- author (PDF meta)
 	plainpages=false,			% 	-
 	colorlinks=true,			% 	- colorize links?
-	linkcolor=[cmyk]{1.0, 0.50, 0.10, 0.01},
-%	linkcolor=[cmyk]{.18, .98, .18, 0},
+%	linkcolor=[cmyk]{1.0, 0.50, 0.10, 0.01},
+	linkcolor=[cmyk]{.18, .98, .18, 0},
+	citecolor=[cmyk]{1.0, 0.50, 0.10, 0.01},
 	pdfborder={0 0 0},			% 	-
 	breaklinks=true,			% 	- allow line break inside links
 	bookmarksnumbered=true,		%
@@ -181,18 +182,19 @@
 \pagenumbering{roman}			% roman page numbing (invisible for empty page style)
 \pagestyle{empty}				% no header or footers
 \input{content/titlepages}		% INCLUDE: all titlepages
-%\cleardoublepage
+\clearpage
 
 \pagestyle{plain}				% display just page numbers
 \input{content/abstract}		% INCLUDE: the abstracts (english and german)
 \clearpage
+%\clearpage
 %
 %\input{content/acknowledgement} % INCLUDE: acknowledgement
 %\cleardoublepage
 %
 \setcounter{tocdepth}{2}		% define depth of toc
 \tableofcontents				% display table of contents
-%\cleardoublepage
+\clearpage
 
 % --------------------------
 % Body matter
