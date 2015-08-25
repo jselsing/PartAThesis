@@ -79,18 +79,18 @@ I attach the submitted quasar paper, and the advanced draft of the "SN Refdal"-p
 \textbf{Selsing, J}; Fynbo, J. P. U.; Christensen, L;  Krogager, J.-K. \\
 \textit{Submitted to A\&A} \\
 
-{\large Paper 2} \\
+{\large Paper II} \\
 \textit{Spectroscopic classification and confirmation of the first multiply imaged supernova}\\
 P. L. Kelly, G. Brammer, \textbf{J. Selsing}, S. A. Rodney, J. Hjorth, R. J. Foley, L Christensen, and et al. \\
 \textit{Advanced draft ready} \\
 
 
-{\large Paper 3} \\
+{\large Paper III} \\
 \textit{Spectrophotometric analysis of GRB afterglow extinction curves with X-shooter} \\
 J. Japelj, S. Covino, A. Gomboc, S. D. Vergani, P. Goldoni,\textbf{ J. Selsing}, Z. Cano, V. D'Elia, H. Flores, J. P. U. Fynbo, F. Hammer, J. Hjorth, P. Jakobsson, L. Kaper, D. Kopač, T. Krühler, A. Melandri, S. Piranomonte, R. Sánchez-Ramírez, G. Tagliaferri, N. R. Tanvir, A. de Ugarte Postigo, D. Watson, R. A. M. J. Wijers \\
 \citet{Japelj2015} \\
 
-{\large Paper 4} \\
+{\large Paper IV} \\
 \textit{GRB hosts through cosmic time - VLT/X-shooter emission-line spectroscopy of 96 GRB-selected galaxies at 0.1 < z < 3.6} \\
 T. Krühler, D. Malesani, J. P. U. Fynbo, O. E. Hartoog, J. Hjorth, P. Jakobsson, D. A. Perley, A. Rossi, P. Schady, S. Schulze, N. R. Tanvir, S. D. Vergani, K. Wiersema, P. M. J. Afonso, J. Bolmer, Z. Cano, S. Covino, V. D'Elia, A. de Ugarte Postigo, R. Filgas, M. Friis, J. F. Graham, J. Greiner, P. Goldoni, A. Gomboc, F. Hammer, J. Japelj, D. A. Kann, L. Kaper, S. Klose, A. J. Levan, G. Leloudas, B. Milvang-Jensen, A. Nicuesa Guelbenzu, E. Palazzi, E. Pian, S. Piranomonte, R. Sanchez-Ramirez, S. Savaglio, \textbf{J. Selsing}, G. Tagliaferri, P. M. Vreeswijk, D. J. Watson, D. Xu \\
 \citet{Kruhler2015} \\
@@ -213,22 +213,119 @@ encourage open source science.
 \label{sec:intro:grb}
 
 
-The existence of GRBs was serendipitously discovered by the VELA satellites that were launched to detect potential detonations of nuclear bombs in space and could not have been discovered by earth-based telescopes due to the inability of gamma-rays to penetrate earths atmosphere. Short flashes of gamma-rays were detected for which a terrestrial origin could be excluded and a new celestial phenomena had been discovered. 
-Significant advances has been made, especially through the rapid, space-based follow-up carried out with the BATSE \citep{Harmon2004} establishing the cosmological origin of GRBs though the isotropic distribution of bursts \citep{Meegan1992},  BeppoSAX \citep{Boella1997} which was the first instrument to identify an X-ray counterpart  \citep{Costa1997} for which an optical afterglow was found and later a host galaxy and the \textit{Swift}-satellite \citep{Gehrels2004} finding afterglows for ground based follow-up, using all available wavelengths. 
+The existence of GRBs was serendipitously discovered by the VELA satellites that
+were launched to detect potential detonations of nuclear bombs in space and
+could not have been discovered by earth-based telescopes due to the inability of
+gamma-rays to penetrate earths atmosphere. Short flashes of gamma-rays were
+detected for which a terrestrial origin could be excluded and a new celestial
+phenomena had been discovered. 
+Significant advances has been made, especially through the rapid, space-based
+follow-up carried out with the BATSE \citep{Harmon2004} establishing the
+cosmological origin of GRBs though the isotropic distribution of bursts
+\citep{Meegan1992},  BeppoSAX \citep{Boella1997} which was the first instrument
+to identify an X-ray counterpart  \citep{Costa1997} for which an optical
+afterglow was found and later a host galaxy and the \textit{Swift}-satellite
+\citep{Gehrels2004} finding afterglows for ground based follow-up, using all
+available wavelengths. 
 
-The GRB phenomena consists of mainly two observable phases. A prompt phase of direct emission radiating up to a total of $10^{55} $ergs if the energy emitted is isotropic, which is comparable to the entire universe \citep{Kumar2014} for the duration of the burst and an afterglow phase which is believed to be associated with the burst ejecta interacting with the circumburst material. The prompt phase can last 1$^{-3}$ - 1$^3$ s with a clear bi-modality in the total sample of burst durations pointing to two distinct populations of objects also supported by the differing hardness ratio of the two types, with the short type typically having a higher fluxes at shorter wavelengths. These two population are classified af short GRBs if the duration is less than 2 seconds and long GRBs if the duration is longer. 
+The GRB phenomena consists of mainly two observable phases. A prompt phase of
+direct emission radiating up to a total of $10^{55} $ergs if the energy emitted
+is isotropic, which is comparable to the entire universe \citep{Kumar2014} for
+the duration of the burst and an afterglow phase which is believed to be
+associated with the burst ejecta interacting with the circumburst material. The
+prompt phase can last 1$^{-3}$ - 1$^3$ s with a clear bi-modality in the total
+sample of burst durations pointing to two distinct populations of objects also
+supported by the differing hardness ratio of the two types, with the short type
+typically having a higher fluxes at shorter wavelengths. These two population
+are classified af short GRBs if the duration is less than 2 seconds and long
+GRBs if the duration is longer. 
 
-The central engine for the bursts is still an open question, but the association of long GRBs with supernova of type Ic-BL points to a massive stellar origin \citep{Woosley2006, Hjorth2013}, where the association of a weaker "kilonova" with the short GRBs is seen a sign for merger-driven explosion mechanism \citep{Tanvir2013}. Several models exist to explain both types of burst, with the collapsar-model being favored for the long GRB and neutonstar-neutronstar merger favored for the short GRB. A common idea for both explosion mechanisms is to explain the amount of energy released as accretion of matter onto a black hole which as for the quasar emission mechanism can yield a very high yield in terms of energy. For the long GRBs, the core of a massive, rapidly rotating star collapses when the iron core exceeds the Chandrasekhar limit forming a black hole. Through conservation of angular momentum an accretion disc is formed, which via strong magnetic fields launches a jet that breaks out of the stellar photosphere \citep{Woosley2006a}. The differing velocities of the ejected material causes shocks inside the outflowing material which emit inverse Compton-scattered synchrotron-radiation, bright in gamma-rays.  When the swept-up material reaches the circum-burst material additional shocks are made and the optical afterglow is created. A typical cartoon for this kind of explosion mechanism is shown in Fig. \ref{fig:intro:grbglow}
+The central engine for the bursts is still an open question, but the association
+of long GRBs with supernova of type Ic-BL points to a massive stellar origin
+\citep{Woosley2006, Hjorth2013}, where the association of a weaker "kilonova"
+with the short GRBs is seen a sign for merger-driven explosion mechanism
+\citep{Tanvir2013}. Several models exist to explain both types of burst, with
+the collapsar-model being favored for the long GRB and neutonstar-neutronstar
+merger favored for the short GRB. A common idea for both explosion mechanisms is
+to explain the amount of energy released as accretion of matter onto a black
+hole which as for the quasar emission mechanism can yield a very high yield in
+terms of energy. For the long GRBs, the core of a massive, rapidly rotating star
+collapses when the iron core exceeds the Chandrasekhar limit forming a black
+hole. Through conservation of angular momentum an accretion disc is formed,
+which via strong magnetic fields launches a jet that breaks out of the stellar
+photosphere \citep{Woosley2006a}. The differing velocities of the ejected
+material causes shocks inside the outflowing material which emit inverse
+Compton-scattered synchrotron-radiation, bright in gamma-rays.  When the
+swept-up material reaches the circum-burst material additional shocks are made
+and the optical afterglow is created. A typical cartoon for this kind of
+explosion mechanism is shown in Fig. \ref{fig:intro:grbglow}
 
 
 \begin{figure}[htb]
 	\includegraphics[width=\textwidth]{gfx/grbmec}
-	\caption{Schematic view of the emission mechanisms in the traditional fireball model. Schematic taken from \citet{Meszaros2014}}
+	\caption{Schematic view of the emission mechanisms in the traditional fireball
+model. Schematic taken from \citet{Meszaros2014}}
 	\label{fig:intro:grbglow}
 \end{figure}
 
-Because the explosion mechanism itself is hidden from sight inside the exploding star, direct detections are impossible. The prompt emission is in many cases to short for detailed investigation so an informative way to learn about the GRB explosion mechanism is to investigate the afterglow, which is visible for longer time. 
+Because the explosion mechanism itself is hidden from sight inside the exploding
+star, direct detection of the possible collapse is impossible. The prompt
+emission is in many cases too short for detailed investigation so an informative
+way to learn about the GRB explosion mechanism is to investigate the afterglow,
+which is visible for longer periods of time, allowing for ground based
+follow-up. Because the afterglow is a featureless continuum, just a with the
+quasar, it can be used to infer the properties of the intervening material, both
+in the host galaxy and in potential DLA systems. Since the sight-lines selected
+by GRB afterglow are different than the ones selected by quasars, they provide
+an independent view of the hosts of otherwise unobservable galaxies. Since the
+quasars are always positioned in the , the center of the host galaxies and the
+long GRBs are shown to trace the stellar light \citep{Fruchter2006,
+Anderson2015}, this potentially could make a difference in the picture drawn.
+Additionally, since GRBs are visible to such extreme redshifts
+\citep{Salvaterra2009}, they provide a unique probe to select star formation at
+the earliest times. 
 
+A ground-based follow-up program has been undertaken using X-shooter, in which
+all \textit{Swift}-bursts with galactic A$_{V} \leq 0.5$ and an XRT position
+within 10 minutes are followed up, if possible. This program has led to a lot of
+papers, investigating single bursts \citep[e.g.][to mention some]{Sparre2011,
+DElia2014, Kruhler2013a, Xu2013a, DeUgartePostigo2014, Schulze2014a, Japelj2015,
+Hartoog2015} which include GRBs with identified associated SNe, short GRBs and
+detections of molecular hydrogen. 
+In Paper III \citep{Japelj2015} we investigate the extinction shape in the host
+galaxy at the position of the GRB for a sample of extincted afterglows. An
+example of an extincted afterglow is shown in Fig. \ref{fig:intro:grbext} where
+the spectrum is shown in black and the continuum level estimation shown in red.
+From the normalized spectrum the neutral hydrogen column density can be
+estimated and from the modeling the afterglow SED the preferred extinction law
+can be inferred. For the sample of eight bursts we investigated here, there
+seemed to be a preference for SMC-like dust towards the GRB sightlines. 
+\begin{figure}[htb]
+	\includegraphics[width=\textwidth]{gfx/normspec}
+	\caption{Extincted afterglow spectrum of GRB120815A in black. The broad
+absorption feature at 4100 \AA~ is from Lyman $\alpha$ absorption in the host
+indicating a redshift of $z \sim 2.35$. A multitude of narrow absorption lines
+are visible in the spectrum belonging to various ionic species of elements. The
+thick red line is the continuum level, as determined from the normalization
+algorithm developed, the narrow red lines are the 1, 2, 3 $\sigma$ lines
+indicating the uncertainty in the continuum placement. The continuum-level
+algorithm will be presented in a future paper. }
+	\label{fig:intro:grbext}
+\end{figure}
+Additionally, for some of the triggers that have been done only emission from
+the GRB host galaxy if visible. The study of the host galaxies of GRBs is an
+indirect way of investigating whether GRBs prefer unusual environments and if
+the GRBs trace star formation. For a sample of 96 host galaxies, we have
+investigated in paper IV \citep{Kruhler2015} whether there is a preference for
+GRB to occur in metal-poor host as is expected from the theoretical explosion
+models \citep{Woosley1993}, which would mean that GRBs cannot be used as a
+representative proxy for star formation at high redshift and would have a bias
+towards low -metallicity environments. What we showed in paper IV was that there
+is indeed a preference for low metallicity host, but only at low redshift which
+is attributed to the metallicity evolution of the universe where conversely at
+redshift $z \sim 3$ most of the star formation in the universe takes place in
+$Z_\odot \leq 0.5$ galaxies and thus the bias of GRB host towards lower
+metallicities disappear.
 
 
 \section{Supernovae: The fiery deaths of massive stars and their environments.}
