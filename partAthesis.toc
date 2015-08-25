@@ -2,20 +2,18 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {1}High energy space phenomena: A window to the dark universe.}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Quasars: Cosmic Lighthouses}{4}{section*.4}
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Gamma-Ray Bursts: Flashes in the Dark}{6}{section*.6}
+\contentsline {section}{\numberline {1.2}Quasars: Cosmic Lighthouses}{4}{section*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Supernovae: The fiery deaths of massive stars and their environments.}{9}{section*.9}
+\contentsline {section}{\numberline {1.3}Gamma-Ray Bursts: Flashes in the Dark}{6}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Conclusion}{13}{chapter.2}
+\contentsline {section}{\numberline {1.4}Supernovae: The fiery deaths of massive stars and their environments.}{9}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}System Section 1}{13}{section*.11}
+\contentsline {section}{\numberline {1.5}Future work}{15}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}System Section 2}{13}{section*.12}
+\contentsline {section}{\numberline {1.6}Acknowledgments}{15}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Future Work}{13}{section*.13}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{15}{chapter*.14}
+\contentsline {chapter}{\nonumberline Bibliography}{17}{chapter*.16}
